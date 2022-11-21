@@ -1,0 +1,16 @@
+C:\C#assignment\CarOnRent\bin\Debug\net5.0\CarOnRent.exe
+C:\C#assignment\CarOnRent\bin\Debug\net5.0\CarOnRent.deps.json
+C:\C#assignment\CarOnRent\bin\Debug\net5.0\CarOnRent.runtimeconfig.json
+C:\C#assignment\CarOnRent\bin\Debug\net5.0\CarOnRent.runtimeconfig.dev.json
+C:\C#assignment\CarOnRent\bin\Debug\net5.0\CarOnRent.dll
+C:\C#assignment\CarOnRent\bin\Debug\net5.0\ref\CarOnRent.dll
+C:\C#assignment\CarOnRent\bin\Debug\net5.0\CarOnRent.pdb
+C:\C#assignment\CarOnRent\obj\Debug\net5.0\CarOnRent.csproj.AssemblyReference.cache
+C:\C#assignment\CarOnRent\obj\Debug\net5.0\CarOnRent.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#assignment\CarOnRent\obj\Debug\net5.0\CarOnRent.AssemblyInfoInputs.cache
+C:\C#assignment\CarOnRent\obj\Debug\net5.0\CarOnRent.AssemblyInfo.cs
+C:\C#assignment\CarOnRent\obj\Debug\net5.0\CarOnRent.csproj.CoreCompileInputs.cache
+C:\C#assignment\CarOnRent\obj\Debug\net5.0\CarOnRent.dll
+C:\C#assignment\CarOnRent\obj\Debug\net5.0\ref\CarOnRent.dll
+C:\C#assignment\CarOnRent\obj\Debug\net5.0\CarOnRent.pdb
+C:\C#assignment\CarOnRent\obj\Debug\net5.0\CarOnRent.genruntimeconfig.cache
