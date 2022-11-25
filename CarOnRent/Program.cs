@@ -6,18 +6,18 @@ namespace CarOnRent
     {
         int display();
     }
-  public  partial class Car: IUnits
-    { 
+    public partial class Car : IUnits
+    {
         String name, model;
         int purchase_year;
         public Car()
         {
-             name="Sharmila";
-             model="BMW";
+            name = "Sharmila";
+            model = "BMW";
             purchase_year = 0;
         }
 
-        public  Car(string name, String model, int purchase_year)
+        public Car(string name, String model, int purchase_year)
         {
             this.name = name;
             this.model = model;
@@ -28,14 +28,14 @@ namespace CarOnRent
             decimal y = 1.0M;
             Console.WriteLine("This is ProjectedRental amt");
             return y;
-         }
+        }
         public void addition()
         {
             Console.WriteLine("This is addition method");
         }
         public override string ToString()
         {
-            return   name + " " + model +" "+ purchase_year;
+            return name + " " + model + " " + purchase_year;
         }
 
         public int display()
@@ -44,7 +44,7 @@ namespace CarOnRent
             Console.WriteLine(number_of_units);
             return number_of_units;
         }
-     public   class MultiUnit: Car, IUnits
+        public class MultiUnit : Car, IUnits
 
         {
             String complex_name;
@@ -76,9 +76,21 @@ namespace CarOnRent
 
         public class SingleFamily : Car
         {
-            int rent_amt,mileage, number_of_seats;
-            string bluetooth_or_wifi, ac_or_nonac, availability_of_maintainance;
-            public SingleFamily(int rent_amt, int number_of_seats,string bluetooth_or_wifi, string ac_or_nonac,string availability_of_maintainance)
+            public int rent_amt
+                , mileage, number_of_seats;
+            public string bluetooth_or_wifi, ac_or_nonac, availability_of_maintainance;
+
+            public SingleFamily()
+            {
+                rent_amt = 1000;
+                mileage = 54;
+                number_of_seats = 4;
+                bluetooth_or_wifi = "WIFI";
+                ac_or_nonac = "AC";
+                availability_of_maintainance = "Y";
+            }
+
+            public SingleFamily(int rent_amt, int number_of_seats, string bluetooth_or_wifi, string ac_or_nonac, string availability_of_maintainance)
             {
                 this.rent_amt = rent_amt;
                 this.number_of_seats = number_of_seats;
@@ -96,20 +108,17 @@ namespace CarOnRent
 
             public override string ToString()
             {
-                return rent_amt + " " + mileage + " " + number_of_seats+" "+ bluetooth_or_wifi+" "+ ac_or_nonac+" "+ availability_of_maintainance;
+                return string.Format(rent_amt + " " + mileage + " " + number_of_seats + " " + bluetooth_or_wifi + " " + ac_or_nonac + " " + availability_of_maintainance);
             }
 
-        }
-
-
-
-
+       
+    }
 
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
             Car car = new Car("Sharmila", "BMW",1000);
-           car. ProjectedRentalAmt();
+            car. ProjectedRentalAmt();
             car.addition();
             car.ToString();
             car.display();
