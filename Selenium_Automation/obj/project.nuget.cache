@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "yN97BgCUJVuehcJIFrI4IVNih0ozDbAutA348loyAsOY0wNo5jSwkyX//ylvhXrqekhwvJ/tezEIPD4WL9rPSg==",
+  "dgSpecHash": "rTb3qzWv47Qq0Pm8FZfFDRXO6FQn0jB30SZbSgDTLu6Tr/bz9wGQHTNQgiA+yh2Nm5LqwM/EfoBE1cKKt4NHpQ==",
   "success": true,
   "projectFilePath": "C:\\C#assignment\\Selenium_Automation\\Selenium_Automation.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\mindtree2143\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\mindtree2143\\.nuget\\packages\\selenium.webdriver\\4.6.0\\selenium.webdriver.4.6.0.nupkg.sha512"
+  ],
   "logs": []
 }

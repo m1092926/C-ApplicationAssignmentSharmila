@@ -1,4 +1,6 @@
-﻿using System;
+﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using System;
 
 namespace Selenium_Automation
 {
@@ -6,7 +8,16 @@ namespace Selenium_Automation
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            IWebDriver driver = new ChromeDriver("C:\\C#assignment\\Chrome\\chromedriver.exe");
+
+            // This will open up the URL
+            driver.Url = "https://demo.automationtesting.in/Register.html/";
+            driver.Manage().Window.Maximize();
+            driver.FindElement(By.XPath( "//input[@ng-model='FirstName']")).SendKeys("Sharmila");
+            driver.FindElement(By.XPath("//input[@ng-model='LastName']")).SendKeys("Paul");
+            driver.FindElement(By.XPath("//textarea[@ng-model='Adress']")).SendKeys("Click Nicon studio");
+            WebElement upload_file = (WebElement)driver.FindElement(By.XPath("//input[@type='file']"));
+            upload_file.SendKeys("C:/Users/Sonali/Desktop/upload.png");
         }
     }
 }
