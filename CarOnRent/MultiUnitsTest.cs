@@ -16,7 +16,7 @@ namespace CarOnRentB
 
         }
 
-        public static MultiUnit DisplayMultiUnits()
+        public  object DisplayMultiUnits()
         {
 
             List<MultiUnit> multiUnits

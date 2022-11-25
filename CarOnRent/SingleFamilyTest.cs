@@ -16,7 +16,7 @@ namespace CarOnRentA
           
         }
 
-        public static SingleFamily DisplaySingleFamily()
+        public  object DisplaySingleFamily()
         {
 
             List<SingleFamily> singlefamiles

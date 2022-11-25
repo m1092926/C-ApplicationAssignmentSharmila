@@ -35,7 +35,7 @@ namespace CarOnRent
         }
         public override string ToString()
         {
-            return name + " " + model + " " + purchase_year;
+            return string.Format(name + " " + model + " " + purchase_year);
         }
 
         public int display()
@@ -70,7 +70,7 @@ namespace CarOnRent
             }
             public override string ToString()
             {
-                return complex_name + " " + number_of_units + " " + rent_amt_per_unit;
+                return string.Format(complex_name + " " + number_of_units + " " + rent_amt_per_unit);
             }
             public override decimal ProjectedRentalAmt()
             {
@@ -123,6 +123,6 @@ namespace CarOnRent
 
         }
     }
-      
+}   
 
-}
+
