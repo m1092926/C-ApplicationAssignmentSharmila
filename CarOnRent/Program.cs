@@ -44,11 +44,18 @@ namespace CarOnRent
             Console.WriteLine(number_of_units);
             return number_of_units;
         }
+    }
+        namespace CarOnRentB {
         public class MultiUnit : Car, IUnits
 
         {
-            String complex_name;
-            int number_of_units, rent_amt_per_unit;
+            public String complex_name;
+            public int number_of_units, rent_amt_per_unit;
+            public MultiUnit() {
+                complex_name = "Sharmila_Paul";
+                number_of_units = 4;
+                rent_amt_per_unit = 5;
+            }
             public MultiUnit(string complex_name, int number_of_units, int rent_amt_per_unit)
             {
                 this.complex_name = complex_name;
@@ -73,7 +80,9 @@ namespace CarOnRent
                 return y;
             }
         }
-
+    }
+    namespace CarOnRentA
+    {
         public class SingleFamily : Car
         {
             public int rent_amt
@@ -111,22 +120,9 @@ namespace CarOnRent
                 return string.Format(rent_amt + " " + mileage + " " + number_of_seats + " " + bluetooth_or_wifi + " " + ac_or_nonac + " " + availability_of_maintainance);
             }
 
-       
-    }
 
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-            Car car = new Car("Sharmila", "BMW",1000);
-            car. ProjectedRentalAmt();
-            car.addition();
-            car.ToString();
-            car.display();
-            MultiUnit multiUnit = new MultiUnit("Sharmila_Paul",90,10);
-            multiUnit.GetNumUnits();
-            multiUnit.ProjectedRentalAmt();
-            SingleFamily singleFamily =new SingleFamily(1000,4,"WIFI","AC","Y");
-            singleFamily.ProjectedRentalAmt();
         }
     }
+      
+
 }
