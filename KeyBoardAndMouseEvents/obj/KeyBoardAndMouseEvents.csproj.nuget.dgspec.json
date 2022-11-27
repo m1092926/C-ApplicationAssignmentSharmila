@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\C#assignment\\KeyBoardAndMouseEvents\\KeyBoardAndMouseEvents.csproj": {}
+    "C:\\Users\\mindtree2143\\Source\\Repos\\C-ApplicationAssignmentSharmila\\KeyBoardAndMouseEvents\\KeyBoardAndMouseEvents.csproj": {}
   },
   "projects": {
-    "C:\\C#assignment\\KeyBoardAndMouseEvents\\KeyBoardAndMouseEvents.csproj": {
+    "C:\\Users\\mindtree2143\\Source\\Repos\\C-ApplicationAssignmentSharmila\\KeyBoardAndMouseEvents\\KeyBoardAndMouseEvents.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\C#assignment\\KeyBoardAndMouseEvents\\KeyBoardAndMouseEvents.csproj",
+        "projectUniqueName": "C:\\Users\\mindtree2143\\Source\\Repos\\C-ApplicationAssignmentSharmila\\KeyBoardAndMouseEvents\\KeyBoardAndMouseEvents.csproj",
         "projectName": "KeyBoardAndMouseEvents",
-        "projectPath": "C:\\C#assignment\\KeyBoardAndMouseEvents\\KeyBoardAndMouseEvents.csproj",
+        "projectPath": "C:\\Users\\mindtree2143\\Source\\Repos\\C-ApplicationAssignmentSharmila\\KeyBoardAndMouseEvents\\KeyBoardAndMouseEvents.csproj",
         "packagesPath": "C:\\Users\\mindtree2143\\.nuget\\packages\\",
-        "outputPath": "C:\\C#assignment\\KeyBoardAndMouseEvents\\obj\\",
+        "outputPath": "C:\\Users\\mindtree2143\\Source\\Repos\\C-ApplicationAssignmentSharmila\\KeyBoardAndMouseEvents\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mindtree2143\\AppData\\Roaming\\NuGet\\NuGet.Config",
