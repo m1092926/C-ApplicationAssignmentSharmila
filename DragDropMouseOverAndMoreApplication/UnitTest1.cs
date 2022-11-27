@@ -7,6 +7,7 @@ using System;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Remote;
 using System.Collections.Generic;
+using System.Windows.Forms;
 
 namespace DragDropMouseOverAndMoreApplication
 {
@@ -62,5 +63,26 @@ namespace DragDropMouseOverAndMoreApplication
             Assert.AreEqual("Dropped!", targetElement.Text);
 
         }
+        [Test]
+        public void Test3()
+        {
+
+
+            IWebDriver driver = new ChromeDriver("C:\\C#assignment\\Chrome\\chromedriver.exe");
+            var actions = new Actions(driver);
+            var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(6));
+            driver.Navigate().GoToUrl("https://demoqa.com/text-box/");
+            wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIsVisible(By.Id("userName")));
+          
+            IWebElement fullname = driver.FindElement(By.Id("userName"));
+            fullname.SendKeys("Sharmila Paul");
+            IWebElement currentElement = driver.FindElement(By.Id("currentAddress"));
+            currentElement.SendKeys("132.R.N.Guha.Road.");
+            Clipboard.SetText("132.R.N.Guha.Road.");
+
+
+
+        }
+
     }
-    }
+}
