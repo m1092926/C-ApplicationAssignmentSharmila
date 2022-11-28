@@ -4,9 +4,7 @@ using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Support.UI;
 using System;
 using OpenQA.Selenium.Chrome;
-using System.Windows;
-using Xamarin.Essentials;
-using System.Threading;
+
 
 namespace DragDropMouseOverAndMoreApplication
 {
