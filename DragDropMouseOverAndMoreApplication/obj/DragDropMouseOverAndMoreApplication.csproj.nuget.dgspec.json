@@ -64,6 +64,10 @@
               "target": "Package",
               "version": "[4.6.0, )"
             },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.3, )"
+            },
             "coverlet.collector": {
               "target": "Package",
               "version": "[3.0.2, )"

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mhw1THjc9fbZrS7J09AptaV/x7sMastvXOX24d4ovHQuhbRXY3hYaWBE+UgBcSHaECTq72qwaqrwWItoK4YAvg==",
+  "dgSpecHash": "iIAFq32/Bwi6g5UppQ8eU/2M0dnYE68ZJnSl6uJIaY/dGUX30btGaOZViXVdFT3C7PenlhQV8QRCIvzB4cgmtA==",
   "success": true,
   "projectFilePath": "C:\\Users\\mindtree2143\\Source\\Repos\\C-ApplicationAssignmentSharmila\\DragDropMouseOverAndMoreApplication\\DragDropMouseOverAndMoreApplication.csproj",
   "expectedPackageFiles": [
@@ -39,6 +39,7 @@
     "C:\\Users\\mindtree2143\\.nuget\\packages\\system.io.filesystem\\4.3.0\\system.io.filesystem.4.3.0.nupkg.sha512",
     "C:\\Users\\mindtree2143\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\mindtree2143\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
+    "C:\\Users\\mindtree2143\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\mindtree2143\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
     "C:\\Users\\mindtree2143\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\mindtree2143\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
@@ -61,7 +62,8 @@
     "C:\\Users\\mindtree2143\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\mindtree2143\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\mindtree2143\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
-    "C:\\Users\\mindtree2143\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\mindtree2143\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\mindtree2143\\.nuget\\packages\\xamarin.essentials\\1.7.3\\xamarin.essentials.1.7.3.nupkg.sha512"
   ],
   "logs": []
 }

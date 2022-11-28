@@ -1,13 +1,12 @@
 using NUnit.Framework;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Support.UI;
 using System;
 using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Remote;
-using System.Collections.Generic;
-using System.Windows.Forms;
+using System.Windows;
+using Xamarin.Essentials;
+using System.Threading;
 
 namespace DragDropMouseOverAndMoreApplication
 {
@@ -78,9 +77,17 @@ namespace DragDropMouseOverAndMoreApplication
             fullname.SendKeys("Sharmila Paul");
             IWebElement currentElement = driver.FindElement(By.Id("currentAddress"));
             currentElement.SendKeys("132.R.N.Guha.Road.");
-            Clipboard.SetText("132.R.N.Guha.Road.");
 
+            actions.KeyDown(Keys.Control).SendKeys("a").KeyUp(Keys.Control).Build().Perform();
+            actions.KeyDown(Keys.Control).SendKeys("c").KeyUp(Keys.Control).Build().Perform();
+           
 
+            IWebElement descPaste = driver.FindElement(By.Id("permanentAddress"));
+            descPaste.Click();
+            actions.KeyDown(Keys.Control).SendKeys("v").KeyUp(Keys.Control).Build().Perform();
+            
+                IWebElement submitButton = driver.FindElement(By.Id("submit"));
+            submitButton.Click();
 
         }
 
